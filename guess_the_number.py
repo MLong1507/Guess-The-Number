@@ -19,7 +19,10 @@ while True:
         times=randint(1,7)
         score+=answer*times
         number=randint(1,1000)
-        print(f"You got it! x{times} score")
+        if times>1:
+            print(f"You got it! x{times} score")
+        else:
+            print("You got it!")
     else:
         score-=answer
         if score<=0:
