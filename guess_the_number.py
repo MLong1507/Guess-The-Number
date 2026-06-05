@@ -10,8 +10,8 @@ while True:
                 break
             else:
                 print("It's invalid, try again!")
-        except:
-            print("Error happend, try again!")
+        except ValueError:
+            print("Value error happend, try again!")
     if score>=10000:
         print("You win!")
         break
