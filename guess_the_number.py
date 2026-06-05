@@ -13,7 +13,7 @@ while True:
         except ValueError:
             print("Value error happend, try again!")
     if score>=10000:
-        print("You win!")
+        print("Congratulations! You win the game!")
         break
     elif number==answer:
         times=randint(1,7)
