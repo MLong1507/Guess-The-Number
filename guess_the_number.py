@@ -9,9 +9,9 @@ while True:
             if 1<=answer<=1000:
                 break
             else:
-                print("It's invalid, try again!")
+                print("It's out of range, try again!")
         except ValueError:
-            print("Value error happend, try again!")
+            print("That number must be interger, try again!")
     if score>=10000:
         print("Congratulations! You win the game!")
         break
