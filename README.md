@@ -1,6 +1,6 @@
 # Guess The Number
 <h2>Description:</h2>
-This is a simple game made by Python console, but you have to use your mind and your luck to play it!<br>
+This is a simple Number Guessing game made by Python console, but you have to use your mind and your luck to play it!<br>
 <h2>Game Rule:</h2>
 -Your original score is 7500. You have to get 10000 or greater to win the game and get 0 or less you will lose.<br>
 -Type a number from 1 to 1000 and use the suggestion from the game: "Greater" or "Less".<br>
